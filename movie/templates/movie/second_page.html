@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/movie.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Page2</title>
+    <style>
+         .movie{
+             position: relative;
+             left: 250px;
+         }
+         .movies{
+             position: relative;
+             left: 250px;
+         }
+    </style>
+</head>
+<body>
+<div>
+    <img src="{% static "css/Perceptron.jpg"%}" alt="logo" width="300px" height="168px" class="logo">
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+    <p class="series" style="font-size: large"><b>Μεταφρασμένες Σειρές</b></p>
+    <a href='wildcards'><p style="font-size: large"><b>Wild Cards</b></p></a>
+    <a href='thetattooist'><p style="font-size: large"><b>The Tattooist of Auschwitz</b></p></a>
+    </div>
+      <div class="col-sm-6"><p class="movie" style="font-size: large"><b>Μεταφρασμένες Ταινίες</b></p>
+      <a href='movies2024'><p style="font-size: large" class="movies"><b>Ταινίες 2024</b></p></a>
+      </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+body {
+    background-image: url("angel.jpg");
+}
+
+.logo {
+    position: relative;
+    left: 750px;
+    border-radius: 50%;
+}
+
+
+.header {
+    position: relative;
+    left: 750px;
+}
