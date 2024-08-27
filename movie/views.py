@@ -52,3 +52,6 @@ def movies2024(request):
 def thetattooist(request):
     tattoos = Tato.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
     return render(request, 'movie/sixth_page.html', {'tattoos': tattoos})
+
+def thewayhome(request):
+    return render(request, 'movie/seventh_page.html',{})
